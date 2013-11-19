@@ -26,8 +26,6 @@ window.onload = function(){
         {
             return [false, "Input är utanför intervallet 1 - 100"];
         }
-        
-	
 	};
 	
 	// ------------------------------------------------------------------------------
