@@ -19,7 +19,9 @@ window.onload = function(){
         else if (str[char] === str[char].toUpperCase()){
             myStr += str[char].toLowerCase();
         }
-        console.log(myStr);
+        else{
+            myStr += str[char];
+        }
 	}
 	return myStr;
 
